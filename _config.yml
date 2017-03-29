@@ -1,1 +1,7 @@
 theme: jekyll-theme-slate
+show_downloads: false
+paginate: 3
+paginate_path: "/page:num/"
+
+gems:
+  - jekyll-paginate
