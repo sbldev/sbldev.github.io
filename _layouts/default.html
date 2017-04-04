@@ -16,6 +16,7 @@
        background: #0090ff no-repeat 95% 50% !important;
        padding: 10px 10px 10px 10px !important;
       }
+      h1 a:hover, h1 a:focus { text-decoration: none !important;}
       i{
         color:white;
       }
@@ -35,7 +36,7 @@
                 <i class="fa fa-github fa-2x"></i>
               </a>
           </div>
-          <a href="https://sbldev.github.io/"><h1 id="project_title">{{ site.title | default: site.github.repository_name }} </h1></a>
+          <h1 id="project_title"><a href="https://sbldev.github.io/">{{ site.title | default: site.github.repository_name }}</a></h1>
  
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </header>
